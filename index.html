@@ -44,7 +44,7 @@
     <!-- Video container -->
     <div class="video-container">
         <!-- Logo inside the video -->
-        <img src="https://i.ibb.co/fMKnFg3/1000003992-removebg-preview.png" alt="Logo" class="logo">
+        <img src="https://i.postimg.cc/c4sd8fJJ/1000050234-removebg-preview.png" alt="Logo" class="logo">
 
         <!-- Video player -->
         <div data-shaka-player-container style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
@@ -91,7 +91,7 @@
         player.configure({
             drm: {
                 clearKeys: {
-                    '162e06450b01432dbf9a98cc8c06e637': "fb10bbb01a468e7c41614fc0803648aa"
+                    '08efc7fb107981608f7b64db5ea62469': "3a6844bc9f0d9d9fd962639d7e4eb76a"
                 }
             }
         });
@@ -115,7 +115,7 @@ window.player = player;
         controls.addEventListener("error", onUIErrorEvent);
 
         try {
-            await player.load("https://sundirectgo-live.pc.cdn.bitgravity.com/src35/dth.mpd");
+            await player.load("https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/dash/enc/lsdasbvglv/out/v1/bb548a3626cd4708afbb94a58d71dce9/cenc.mpd");
             console.log("The video has now been loaded!");
         } catch (error) {
             onPlayerError(error);
